@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Q1 Project</title>
+    
+</head>
+<body>
+    <header class="top-bar" id="header" name="header">
+        <span class="icon-placeholder">&#9733;</span>
+        <div class="header-content">
+            <button class="header-btn">About me</button>
+            <button class="header-btn">My Works</button>
+            <button class="header-btn">Contacts</button>
+        </div>
+    </header>
+    
+    <header class="main-header" id="header" name="header">
+        <h1>Hello, I'm Josh!</h1>
+        <p>I'm a student at OBMC</p>
+    
+    </header>
+    <br>
+    <h1 id="txt" name="text"><span class="highlighted-textv2">About Me</span>
+    </h1>
+    <p id="desc" name="description">My name is Josh, I'm 13 years old. I like to exercise and play video games. I also like to listen to music, my favorite artists are Stevie Wonder and Michael Bublé.
+   <br>
+   <br>     
+    </p>
+    <p id="txt" name="text">
+        <span class="highlighted-textv2">My Works</span>
+    </p>
+    <br>
+    <div style="display: flex; align-items: flex-start;">
+        <img src="Screenshot 2025-09-05 113958.png" width="350" height="250" alt="Top 3 Favorite Artists" class="imageborder" style="margin-right: 30px;">
+        <ul class="highlighted-textv1 list"  style="list-style-type: disc; padding-left: 20px; font-size: 30px; color: #ffffff;">
+            <li>✅HTML and CSS Projects</li>
+    <br>
+            <li>✅Personal Slambook</li>
+     <br>
+            <li>✅School Portfolio</li>
+        </ul>
+    
+    </div>
+    <br>
+    <div style="display: flex; align-items: flex-start;">
+        <img src="Screenshot 2025-09-19 113335.png" width="300" height="200" alt="Stevie Wonder" class="imageborder" style="margin-right: 30px;">
+        <ul class="highlighted-textv1 list"  style="list-style-type: disc; padding-left: 20px; font-size: 30px; color: #ffffff;">
+            <li>✅HTML and CSS Projects</li>
+    <br>
+            <li>✅HTML Forms</li>
+    <br>
+            <li>✅List, Links, and Images</li>
+        </ul>
+    </div>
+    <br>
+    <br> 
+    <div style="display: flex; align-items: flex-start;">
+        <img src="1756456325-193.png" width="300" height="200" alt="Stevie Wonder" class="imageborder" style="margin-right: 30px;">
+    </div>
+    <br>
+    <br> 
+    <div class="contact-section"></div>
+        <h2 class="highlighted-textv2" id="txt" name="text">Contacts</h2>
+        <form class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name here...">
+        <br>
+        <br>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+        <br>
+        <br>
+            <label>How did you find me?</label>
+            <div class="radio-group">
+                <input type="radio" id="facebook" name="find" value="Facebook">
+                <label for="facebook">Facebook</label>
+                <input type="radio" id="google" name="find" value="Google">
+                <label for="google">Google</label>
+                <input type="radio" id="friends" name="find" value="Friends">
+                <label for="friends">Friends</label>
+            </div>
+        <br>
+        <br>
+            <label>Services Interested In:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="webdesign" name="services" value="Web Design">
+                <label for="webdesign">Web Design</label>
+                <input type="checkbox" id="graphicdesign" name="services" value="Graphic Design">
+                <label for="graphicdesign">Graphic Design</label>
+                <input type="checkbox" id="robotics" name="services" value="Robotics">
+                <label for="robotics">Robotics</label>
+            </div>
+        <br>
+        <br>
+            <label for="rating">Rate my Portfolio</label>
+            <select id="rating" name="rating">
+                <option value="">-- Select Rating --</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Best)</option>
+            </select>
+        <br>
+        <br>
+            <label for="feedback">Any Feedback?</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Feedback here..."></textarea>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
